@@ -8,6 +8,50 @@
 	<script type="module" src="script.js"></script>
 </head>
 <body>
-	<h1>Formuláře</h1>
+	<div class="container">
+		<h1>Formuláře</h1>
+
+
+
+<form id="formular">
+
+	<label class="field">
+		Jméno
+		<input type="text" id="jmeno" value="Ema">
+	</label>
+
+	<label class="field">
+		Příjmení
+		<input type="text" id="prijmeni">
+	</label>
+
+
+	<label class="check">
+		<input type="checkbox" id="souhlas">
+		Souhlas se zpracováním osobních údajů
+	</label>
+
+
+	<label class="field">
+		Město
+		<select id="mesto">
+			<option value="11000">Praha</option>
+			<option value="62000">Brno</option>
+			<option value="18000">Ostrava</option>
+		</select>
+	</label>
+
+
+	<div class="controls">
+		<button>Odeslat</button>
+	</div>
+
+</form>
+
+<p id="zprava"></p>
+
+
+
+	</div>
 </body>
 </html>
